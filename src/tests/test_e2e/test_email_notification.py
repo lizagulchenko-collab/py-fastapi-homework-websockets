@@ -17,7 +17,7 @@ from database import (
 @pytest.mark.e2e
 @pytest.mark.order(1)
 @pytest.mark.asyncio
-async def test_registration(e2e_client, reset_db_once_for_e2e, settings, seed_user_groups, e2e_db_session):
+async def p test_registration(e2e_client, reset_db_once_for_e2e, settings, seed_user_groups, e2e_db_session):
     """
     End-to-end test for user registration.
 
